@@ -1,6 +1,0 @@
-{% extends "template.html" %}
-{% block content %}
-<h2>Welcome to the Flask Blog!</h2>
-<h3>Please login to access your blog.</h3>
-<p>Temp Login: <a href="/main">Login</a></p>
-{% endblock %}
