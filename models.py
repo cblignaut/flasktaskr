@@ -19,3 +19,21 @@ class Task(db.Model):
 
     def __repr__(self):
         return '<name {0}>'.format(self.name)
+
+
+class User(db.Model):
+    """docstring for User"""
+    __tablename__ = 'users'
+
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String, unique=True, nullable=True)
+    email = db.Column(db.String, unique=True, nullable=True)
+    password = db.Column(db.String, nullable=False)
+
+    def __init__(self, name=None, email=None, password=None):
+        self.name = name
+        self.email = email
+        self.password = password
+
+    def __repr__(self):
+        return '<User {0}'.format(self.name)
