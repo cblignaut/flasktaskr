@@ -4,6 +4,7 @@ from flask import Flask, flash, redirect, render_template, \
     request, session, url_for
 from forms import AddTaskForm, LoginForm, RegisterForm
 from flask.ext.sqlalchemy import SQLAlchemy
+import datetime
 
 # Config
 app = Flask(__name__)
@@ -58,14 +59,16 @@ def login():
     error = None
     form = LoginForm(request.form)
     if request.method == 'POST':
-        if form.validate_on_submit:
+        if form.validate_on_submit():
             user = User.query.filter_by(name=request.form['name']).first()
             if user is not None and user.password == request.form['password']:
                 session['logged_in'] = True
-                flash('Welcome')
+                flash('Welcome!')
                 return redirect(url_for('tasks'))
             else:
-                error = 'Invalid Credentials. Please try again'
+                error = 'Invalid username or password.'
+        else:
+            error = 'Both fields are required.'
     return render_template('login.html', form=form, error=error)
 
 
@@ -92,6 +95,8 @@ def new_task():
                 form.name.data,
                 form.due_date.data,
                 form.priority.data,
+                datetime.datetime.utcnow(),
+                '1',
                 '1'
             )
             db.session.add(new_task)
