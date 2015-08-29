@@ -50,7 +50,8 @@ def register():
 @app.route('/logout/')
 def logout():
     session.pop('logged_in', None)
-    flash("Goodbye")
+    session.pop('user_id', None)
+    flash('Goodbye!')
     return redirect(url_for('login'))
 
 
@@ -63,6 +64,7 @@ def login():
             user = User.query.filter_by(name=request.form['name']).first()
             if user is not None and user.password == request.form['password']:
                 session['logged_in'] = True
+                session['user_id'] = user.id
                 flash('Welcome!')
                 return redirect(url_for('tasks'))
             else:
@@ -85,7 +87,7 @@ def tasks():
                            )
 
 
-@app.route('/add/', methods=['POST'])
+@app.route('/add/', methods=['GET', 'POST'])
 @login_required
 def new_task():
     form = AddTaskForm(request.form)
@@ -97,12 +99,16 @@ def new_task():
                 form.priority.data,
                 datetime.datetime.utcnow(),
                 '1',
-                '1'
+                session['user_id']
             )
             db.session.add(new_task)
             db.session.commit()
-            flash("New entry was successfully posted. Thanks")
-    return redirect(url_for('tasks'))
+            flash('New entry was successfully posted. Thanks.')
+            return redirect(url_for('tasks'))
+        else:
+            flash('All fields are required.')
+            return redirect(url_for('tasks'))
+    return render_template('tasks.html', form=form)
 
 
 @app.route('/complele/<int:task_id>')
