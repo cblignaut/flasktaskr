@@ -1,11 +1,13 @@
 # project/test_users.py
 
+
 import os
 import unittest
 
 from project import app, db, bcrypt
 from project._config import basedir
-from project.models import Task, User
+from project.models import User
+
 
 TEST_DB = 'test.db'
 
@@ -20,10 +22,13 @@ class UsersTests(unittest.TestCase):
     def setUp(self):
         app.config['TESTING'] = True
         app.config['WTF_CSRF_ENABLED'] = False
+        app.config['DEBUG'] = False
         app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + \
             os.path.join(basedir, TEST_DB)
         self.app = app.test_client()
         db.create_all()
+
+        self.assertEquals(app.debug, False)
 
     # executed after each test
     def tearDown(self):
@@ -66,6 +71,11 @@ class UsersTests(unittest.TestCase):
             posted_date='02/04/2015',
             status='1'
         ), follow_redirects=True)
+
+
+    ###############
+    #### tests ####
+    ###############
 
     def test_users_can_register(self):
         new_user = User("michael", "michael@mherman.org", "michaelherman")
@@ -147,7 +157,7 @@ class UsersTests(unittest.TestCase):
         )
         self.assertIn(b'This field is required.', response.data)
 
-    def test_string_representation_of_the_user_object(self):
+    def test_string_reprsentation_of_the_user_object(self):
 
         db.session.add(
             User(
@@ -179,13 +189,6 @@ class UsersTests(unittest.TestCase):
         for user in users:
             self.assertEqual(user.role, 'user')
 
-    def test_task_template_displays_logged_in_user_name(self):
-        self.register(
-            'Fletcher', 'fletcher@realpython.com', 'python101', 'python101'
-        )
-        self.login('Fletcher', 'python101')
-        response = self.app.get('tasks/', follow_redirects=True)
-        self.assertIn(b'Fletcher', response.data)
 
 if __name__ == "__main__":
     unittest.main()

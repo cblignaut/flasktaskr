@@ -119,7 +119,7 @@
 			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 41,
+				"buffer_size": 36,
 				"line_ending": "Unix"
 			}
 		},
@@ -132,6 +132,47 @@
 			}
 		},
 		{
+			"file": "requirements.txt",
+			"settings":
+			{
+				"buffer_size": 297,
+				"line_ending": "Windows",
+				"name": "Fabric==1.10.1"
+			}
+		},
+		{
+			"file": "project/api/__init__.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project/tasks/__init__.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project/api/views.py",
+			"settings":
+			{
+				"buffer_size": 2003,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".git/config",
+			"settings":
+			{
+				"buffer_size": 380,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "project/users/forms.py",
 			"settings":
 			{
@@ -140,18 +181,18 @@
 			}
 		},
 		{
-			"file": "run.py",
-			"settings":
-			{
-				"buffer_size": 45,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "db_migration.py",
 			"settings":
 			{
 				"buffer_size": 1921,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "run.py",
+			"settings":
+			{
+				"buffer_size": 122,
 				"line_ending": "Unix"
 			}
 		},
@@ -167,8 +208,34 @@
 			"file": "tests/test_main.py",
 			"settings":
 			{
-				"buffer_size": 1505,
+				"buffer_size": 1529,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "fabfile.py",
+			"settings":
+			{
+				"buffer_size": 856,
+				"line_ending": "Windows",
+				"name": "def test():"
+			}
+		},
+		{
+			"file": "tests/test_api.py",
+			"settings":
+			{
+				"buffer_size": 2721,
+				"line_ending": "Windows",
+				"name": "# tests/test_api.py"
+			}
+		},
+		{
+			"file": ".git/description",
+			"settings":
+			{
+				"buffer_size": 73,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -215,7 +282,7 @@
 			"file": "project/tasks/forms.py",
 			"settings":
 			{
-				"buffer_size": 714,
+				"buffer_size": 770,
 				"line_ending": "Windows"
 			}
 		},
@@ -239,7 +306,7 @@
 			"file": "project/__init__.py",
 			"settings":
 			{
-				"buffer_size": 1219,
+				"buffer_size": 1300,
 				"line_ending": "Windows"
 			}
 		},
@@ -263,7 +330,15 @@
 			"file": "error.log",
 			"settings":
 			{
-				"buffer_size": 72,
+				"buffer_size": 735,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Procfile",
+			"settings":
+			{
+				"buffer_size": 18,
 				"line_ending": "Windows"
 			}
 		},
@@ -276,10 +351,10 @@
 			}
 		},
 		{
-			"file": "requirements.txt",
+			"file": "requirements_bk2.txt",
 			"settings":
 			{
-				"buffer_size": 210,
+				"buffer_size": 316,
 				"line_ending": "Windows"
 			}
 		},
@@ -287,7 +362,7 @@
 			"file": "requirements.txt",
 			"settings":
 			{
-				"buffer_size": 210,
+				"buffer_size": 297,
 				"line_ending": "Windows"
 			}
 		}
@@ -355,8 +430,10 @@
 	"expanded_folders":
 	[
 		"/C/Users/cilliers.blignaut/Dropbox/Training/RealPython/Part2-Repo/FlaskTaskr",
+		"/C/Users/cilliers.blignaut/Dropbox/Training/RealPython/Part2-Repo/FlaskTaskr/.git",
+		"/C/Users/cilliers.blignaut/Dropbox/Training/RealPython/Part2-Repo/FlaskTaskr/htmlcov",
 		"/C/Users/cilliers.blignaut/Dropbox/Training/RealPython/Part2-Repo/FlaskTaskr/project",
-		"/C/Users/cilliers.blignaut/Dropbox/Training/RealPython/Part2-Repo/FlaskTaskr/project/static",
+		"/C/Users/cilliers.blignaut/Dropbox/Training/RealPython/Part2-Repo/FlaskTaskr/project/api",
 		"/C/Users/cilliers.blignaut/Dropbox/Training/RealPython/Part2-Repo/FlaskTaskr/project/tasks",
 		"/C/Users/cilliers.blignaut/Dropbox/Training/RealPython/Part2-Repo/FlaskTaskr/project/templates",
 		"/C/Users/cilliers.blignaut/Dropbox/Training/RealPython/Part2-Repo/FlaskTaskr/project/users",
@@ -364,6 +441,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/cilliers.blignaut/Dropbox/Training/RealPython/Part2-Repo/FlaskTaskr/project/api",
 		"/C/Users/cilliers.blignaut/Dropbox/Training/RealPython/Part2-Repo/FlaskTaskr/project/views.py",
 		"/C/Users/cilliers.blignaut/Dropbox/Training/RealPython/Part2-Repo/FlaskTaskr/test.py",
 		"/C/Users/cilliers.blignaut/Dropbox/Training/RealPython/Part2-Repo/FlaskTaskr/models.py",
@@ -490,8 +568,7 @@
 		"/C/Users/cilliers.blignaut/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
 		"/F/Skywave/ISatData Pro/Monitor/skymonitor_script_0_61.idpprj",
 		"/C/Users/cilliers.blignaut/AppData/Roaming/Sublime Text 3/Packages/Lua Dev/Lua Dev.sublime-settings",
-		"/C/Program Files (x86)/AutoIt3/Examples/GUI/Advanced/Sky-QOS v085/SkyQOS v0.8.5.au3",
-		"/C/Users/cilliers.blignaut/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings"
+		"/C/Program Files (x86)/AutoIt3/Examples/GUI/Advanced/Sky-QOS v085/SkyQOS v0.8.5.au3"
 	],
 	"find":
 	{
@@ -665,7 +742,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -674,15 +751,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 41,
+						"buffer_size": 36,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								41,
-								41
+								36,
+								36
 							]
 						],
 						"settings":
@@ -696,7 +773,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
@@ -712,8 +789,75 @@
 						"selection":
 						[
 							[
-								2207,
-								2207
+								2494,
+								2494
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 624.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "requirements.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								297,
+								297
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Fabric==1.10.1",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sftp_duplicate_views": 1,
+							"synced": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "project/api/__init__.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -725,14 +869,111 @@
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 624.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
+					"file": "project/tasks/__init__.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "project/api/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2003,
+								2003
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 312.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": ".git/config",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								380
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "project/users/forms.py",
 					"semi_transient": false,
 					"settings":
@@ -744,8 +985,8 @@
 						"selection":
 						[
 							[
-								854,
-								854
+								26,
+								26
 							]
 						],
 						"settings":
@@ -762,46 +1003,17 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 15,
+			"selected": 10,
 			"sheets":
 			[
 				{
-					"buffer": 3,
-					"file": "run.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 45,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								43,
-								43
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
+					"buffer": 8,
 					"file": "db_migration.py",
 					"semi_transient": false,
 					"settings":
@@ -830,11 +1042,42 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 9,
+					"file": "run.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
 					"file": "db_create.py",
 					"semi_transient": false,
 					"settings":
@@ -861,24 +1104,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 11,
 					"file": "tests/test_main.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1505,
+						"buffer_size": 1529,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								499,
-								499
+								1074,
+								1074
 							]
 						],
 						"settings":
@@ -888,17 +1131,117 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 12,
+					"file": "fabfile.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 856,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								856,
+								856
+							]
+						],
+						"settings":
+						{
+							"auto_name": "def test():",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "tests/test_api.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2674,
+								2674
+							]
+						],
+						"settings":
+						{
+							"auto_name": "# tests/test_api.py",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 595.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": ".git/description",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 73,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
 					"file": "tests/test_tasks.py",
 					"semi_transient": false,
 					"settings":
@@ -927,11 +1270,11 @@
 						"translation.y": 457.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 16,
 					"file": "tests/test_users.py",
 					"semi_transient": false,
 					"settings":
@@ -957,14 +1300,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1625.0,
+						"translation.y": 2236.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 17,
 					"file": "project/forms.py",
 					"semi_transient": false,
 					"settings":
@@ -993,11 +1336,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 18,
 					"file": "project/tasks/views.py",
 					"semi_transient": false,
 					"settings":
@@ -1009,8 +1352,8 @@
 						"selection":
 						[
 							[
-								1577,
-								1577
+								2699,
+								2699
 							]
 						],
 						"settings":
@@ -1024,14 +1367,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 619.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 19,
 					"file": "project/templates/_base.html",
 					"semi_transient": false,
 					"settings":
@@ -1060,24 +1403,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 20,
 					"file": "project/tasks/forms.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 714,
+						"buffer_size": 770,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								714,
-								714
+								463,
+								463
 							]
 						],
 						"settings":
@@ -1094,11 +1437,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 21,
 					"file": "project/models.py",
 					"semi_transient": false,
 					"settings":
@@ -1127,11 +1470,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 22,
 					"file": "project/templates/tasks.html",
 					"semi_transient": false,
 					"settings":
@@ -1160,24 +1503,24 @@
 						"translation.y": 520.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 23,
 					"file": "project/__init__.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1219,
+						"buffer_size": 1300,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1170,
-								1170
+								614,
+								614
 							]
 						],
 						"settings":
@@ -1185,17 +1528,19 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 24,
 					"file": "project/templates/500.html",
 					"semi_transient": false,
 					"settings":
@@ -1223,11 +1568,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 25,
 					"file": "project/_config.py",
 					"semi_transient": false,
 					"settings":
@@ -1254,16 +1599,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 26,
 					"file": "error.log",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 72,
+						"buffer_size": 735,
 						"regions":
 						{
 						},
@@ -1285,11 +1630,42 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 27,
+					"file": "Procfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
 					"file": "project/templates/404.html",
 					"semi_transient": false,
 					"settings":
@@ -1317,30 +1693,31 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
-					"file": "requirements.txt",
+					"buffer": 29,
+					"file": "requirements_bk2.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 210,
+						"buffer_size": 316,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								210,
-								0
+								316,
+								316
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
 							"remote_loading": false,
+							"sftp_duplicate_views": 0,
 							"synced": false,
 							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
 						},
@@ -1348,37 +1725,39 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 30,
 					"file": "requirements.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 210,
+						"buffer_size": 297,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								210,
-								210
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
+							"remote_loading": false,
 							"sftp_duplicate_views": 1,
+							"synced": false,
 							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 2.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 30,
 					"type": "text"
 				}
 			]
@@ -1480,7 +1859,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

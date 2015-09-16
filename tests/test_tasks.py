@@ -1,4 +1,5 @@
-# project/test_tasks.py
+#project/test_tasks.py
+
 
 import os
 import unittest
@@ -6,6 +7,7 @@ import unittest
 from project import app, db, bcrypt
 from project._config import basedir
 from project.models import Task, User
+
 
 TEST_DB = 'test.db'
 
@@ -20,10 +22,13 @@ class TasksTests(unittest.TestCase):
     def setUp(self):
         app.config['TESTING'] = True
         app.config['WTF_CSRF_ENABLED'] = False
+        app.config['DEBUG'] = False
         app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + \
             os.path.join(basedir, TEST_DB)
         self.app = app.test_client()
         db.create_all()
+
+        self.assertEquals(app.debug, False)
 
     # executed after each test
     def tearDown(self):
@@ -94,6 +99,7 @@ class TasksTests(unittest.TestCase):
     def test_not_logged_in_users_cannot_access_tasks_page(self):
         response = self.app.get('tasks/', follow_redirects=True)
         self.assertIn(b'You need to login first.', response.data)
+
 
     def test_users_can_add_tasks(self):
         self.create_user('Michael', 'michael@realpython.com', 'python')
@@ -212,6 +218,14 @@ class TasksTests(unittest.TestCase):
         for task in tasks:
             self.assertEqual(task.name, 'Run around in circles')
 
+    def test_task_template_displays_logged_in_user_name(self):
+        self.register(
+            'Fletcher', 'fletcher@realpython.com', 'python101', 'python101'
+        )
+        self.login('Fletcher', 'python101')
+        response = self.app.get('tasks/', follow_redirects=True)
+        self.assertIn(b'Fletcher', response.data)
+
     def test_users_cannot_see_task_modify_links_for_tasks_not_created_by_them(self):
         self.register('Michael', 'michael@realpython.com', 'python', 'python')
         self.login('Michael', 'python')
@@ -255,6 +269,7 @@ class TasksTests(unittest.TestCase):
         self.assertIn(b'delete/1/', response.data)
         self.assertIn(b'complete/2/', response.data)
         self.assertIn(b'delete/2/', response.data)
+
 
 if __name__ == "__main__":
     unittest.main()

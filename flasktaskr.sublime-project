@@ -12,6 +12,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "C:\\Users\\cilliers.blignaut\\Dropbox\\Training\\RealPython\\Part2-Repo\\flask-boilerplate"
 		}
 	]
 }

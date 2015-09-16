@@ -1,3 +1,6 @@
+# project/tasks/views.py
+
+
 import datetime
 from functools import wraps
 from flask import flash, redirect, render_template, \
@@ -37,7 +40,7 @@ def open_tasks():
 
 def closed_tasks():
     return db.session.query(Task).filter_by(
-status='0').order_by(Task.due_date.asc())
+        status='0').order_by(Task.due_date.asc())
 
 
 ################
@@ -90,10 +93,10 @@ def complete(task_id):
     new_id = task_id
     task = db.session.query(Task).filter_by(task_id=new_id)
     if session['user_id'] == task.first().user_id or session['role'] == "admin":
-            task.update({"status": "0"})
-            db.session.commit()
-            flash('The task is complete. Nice.')
-            return redirect(url_for('tasks.tasks'))
+        task.update({"status": "0"})
+        db.session.commit()
+        flash('The task is complete. Nice.')
+        return redirect(url_for('tasks.tasks'))
     else:
         flash('You can only update tasks that belong to you.')
         return redirect(url_for('tasks.tasks'))
