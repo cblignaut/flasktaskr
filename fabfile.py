@@ -43,7 +43,7 @@ def heroku_test():
 def deploy():
     pull()
     test()
-    commit()
+    # commit()
     heroku()
     heroku_test()
 
