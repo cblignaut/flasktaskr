@@ -1,4 +1,4 @@
 Flasktaskr Real Python app
 
 Travis
-https://travis-ci.org/cblignaut/flasktaskr.svg?branch=master
+[![Build Status](https://travis-ci.org/cblignaut/flasktaskr.svg)](https://travis-ci.org/cblignaut/flasktaskr)
