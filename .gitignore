@@ -4,3 +4,4 @@
 *htmlcov
 *.sublime-workspace
 *.sublime-project
+*.sh

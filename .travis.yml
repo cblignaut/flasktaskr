@@ -13,6 +13,4 @@ deploy:
     secure: RID2k896eSq9OnRRfxAYLu/j6V6+7cR+81EqmUH/mENk4FNFhQY3O6ZdZ46bTnDOm2+VOwKpSHZB6tjoVkMi/Mees+ETxwOaNzLS5sXVbNkWtkszU10PB6qO8N9Wm19sKXgDXxE5lrFS8roKjqLe/LGlFOA+Qr1evFa1DpiFp4HzOBgqBVEJGx3U591kNPunIlwWKB3z+lyfGwq9X6V7vu8aMtHBB71mgJyzgtQfKD7r3Jpaqqt6B13Qtd/Pnng3F1Z3IzLZPQyQAL1yY7/d0Wp3LiN9Tpys2/BhxIwJ7VGgHcGTDMgsDLCnZqdW9Nk2VK/4UyocTJrDRuAaZXLTK1KDYtgyd+KtP5gLw6Pa1MbDj/T0CrDNuSgITc0xm0aE02L/0LTvX6dcOoPqlSOqnT3J0fHXBOxA1pzqUHXHko+xvjxgt+A363wEmk1KrIMC+UM0tKJ29+8TxTxghyUQMwl7FOhFV1bWnXqzdwm2/xF+e0A9KSBVhO4lMZAmpo9YxhG2RQjbR0GTlYPj4fMXUpUKeUaVVE8eXrVuniY2iGHk8jh5+P9lclNuqhcLGEkiHP5gRcDrzS+xXRM+7GOanfQgqJawOssLKyWYg7qZvpgQ7r5EKEMoe69gRGeQHMp9JNuGRwd10/SbdIfNkMt3bQBbPfHAkOTJffgDEbaRHMM=
   app: pure-gorge-4399
   on:
-    branch: master
-    python: '3.4'
     repo: cblignaut/flasktaskr
