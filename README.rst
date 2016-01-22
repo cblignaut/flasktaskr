@@ -1,3 +1,8 @@
+Flasktaskr Real Python app
+
+Travis
+[![Build Status](https://travis-ci.org/cblignaut/flasktaskr.svg)](https://travis-ci.org/cblignaut/flasktaskr)
+
 * This is a bulleted list.
 * It has two items, the second
   item uses two lines.
@@ -7,3 +12,4 @@
 
 #. This is a numbered list.
 #. It has two items too.
+
